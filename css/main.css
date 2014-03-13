@@ -110,19 +110,6 @@ table {
     margin-bottom: 20px;
 }
 
-.smIcons, .thumbnail {
-    height: 40%;
-    width: 32%;
-    display: inline-block;
-    padding: 2px;
-}
-
-.lgIcons {
-    height: 100%;
-    width: 100%;
-    padding: 2px;
-}
-
 /* Text over episode thumbnails */
 
 .imageLg, .imageSm {
@@ -178,19 +165,19 @@ table {
 
 /* Tables for smaller episode thumbnails */
 
-.epTable {
+.test {
     margin-bottom: 50px;
 }
 
-.epTable tr {
+.test tr {
     line-height: 30px;
 }
 
-.epTable td {
+.test td {
     width: 280px;
 }
 
-.epTable img {
+.test img {
   width: 96%;
   vertical-align: center;
 }
