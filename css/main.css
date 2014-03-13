@@ -118,7 +118,7 @@ table {
 }
 
 .imageLg img {
-  width: 100%;
+  width: 98%;
 }
 
 .imageSm img {
@@ -165,21 +165,25 @@ table {
 
 /* Tables for smaller episode thumbnails */
 
-.test {
+.epiTable {
     margin-bottom: 50px;
 }
 
-.test tr {
+.epiTable tr {
     line-height: 30px;
 }
 
-.test td {
+.epiTable td {
     width: 280px;
 }
 
-.test img {
+.epiTable img {
   width: 96%;
   vertical-align: center;
+}
+
+#featured {
+  margin-bottom: 8px;
 }
 
 /* Adds fade effect to Bootstrap Carousel */
