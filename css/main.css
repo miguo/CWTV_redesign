@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end of Eric Meyer reset code */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue.eot');
+    src: url('../fonts/bebasneue.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue.woff') format('woff'),
+         url('../fonts/bebasneue.ttf') format('truetype'),
+         url('../fonts/bebasneue.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Navbar */
+
+#barLogo {
+    height: 30%;
+    width: 30%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.navbar-right li a {
+    line-height: 50px;
+    font-family: 'bebas_neueregular';
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+/* Carousel slider */
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 520px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+.coverPhoto {
+    height: 50%;
+}
+
+#myCarousel {
+    margin-top: -30px;
+}
+
+/* Smaller episode icons */
+
+.episodeList {
+    margin-top: 46px;
+    margin-bottom: 200px;
+}
+
+.listNames {
+    margin-bottom: 20px;
+}
+
+.smIcons, .thumbnail {
+    height: 40%;
+    width: 32%;
+    display: inline-block;
+    padding: 2px;
+}
+
+.lgIcons {
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+}
+
+/* Text over episode thumbnails */
+
+.imageLg, .imageSm {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+.imageLg img {
+  width: 100%;
+}
+
+.imageSm img {
+  width: 32%;
+}
+
+.imageLg h2 {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.imageLg span {
+  float: left;
+  clear: left;
+  color: white;
+  font: bold 24px/45px Helvetica, Arial, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3px 10px;
+}
+
+.imageSm h2 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.imageSm span {
+  float: left;
+  clear: left;
+  color: white;
+  font: bold 15px/25px Helvetica, Arial, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3px 10px;
+}
+
+/* Tables for smaller episode thumbnails */
+
+.epTable {
+    margin-bottom: 50px;
+}
+
+.epTable tr {
+    line-height: 30px;
+}
+
+.epTable td {
+    width: 280px;
+}
+
+.epTable img {
+  width: 96%;
+  vertical-align: center;
+}
+
+/* Adds fade effect to Bootstrap Carousel */
+
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+.carousel.carousel-fade .carousel-control {
+  z-index: 3;
+}
+
+
