@@ -131,11 +131,12 @@
         </div>
 
         <!-- Container for Latest Episodes, Popular Episodes, and My Queue -->
+        <div class="wrapper">
         <div class = "container episodeList">
             <div class = "row">
                 <div class = "col-md-7">
                     <h3 class = "listNames">LATEST EPISODES</h3>
-                    <table style="width:620px" class="epiTable">
+                    <table class="table epiTable">
                         <tr>
                             <td>
                                 <div class="imageSm">
@@ -179,7 +180,7 @@
                     </table>
                     
                     <h3 class="listNames">POPULAR EPISODES</h3>
-                    <table style="width:620px" class="epiTable">
+                    <table class="table epiTable">
                         <tr>
                             <td>
                                 <div class="imageSm">
@@ -226,14 +227,18 @@
             <div class="row">
                 <div class = "col-md-5">
                     <h3 class="listNames">MY QUEUE</h3>
-                    <div class="imageLg" id="featured">
-                        <img src="img/TVD_gonegirl.jpg" alt="" />
-                        <h2>
-                            <span>The Vampire Diaries</span>
-                            <span>Gone Girl (Ep.515)</span>
-                        </h2>
-                    </div>
-                    <table style="width:495px" class="epiTable">
+                    <table class="table epiTable">
+                        <tr>
+                            <td colspan="2" style="width:100%">
+                                <div class="imageLg" id="featured">
+                                    <img src="img/TVD_gonegirl.jpg" alt="" />
+                                    <h2>
+                                        <span>The Vampire Diaries</span>
+                                        <span>Gone Girl (Ep.515)</span>
+                                    </h2>
+                                </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td>
                                 <div class="imageSm imageSmlst">
@@ -292,11 +297,11 @@
        </div>
 
         <!-- Container for Photo Galleries -->
-        <div class = "container photo_galleries">
+        <div class = "container table-responsive photo_galleries">
             <div class = "row">
                 <div class = "col-md-12">
                     <h3 class="listNames">PHOTO GALLERIES</h3>
-                    <table style="width:1200px" class="gallery">
+                    <table class="table gallery">
                         <tr>
                             <td>
                                 <div class="">
@@ -323,6 +328,75 @@
                 </div>
             </div>
         </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="container">
+                <div class="footer_shows">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4>SHOWS</h4>
+                            <ul>
+                                <li>America's Next Top Model</li>
+                                <li>Arrow</li>
+                                <li>Beauty and the Beast</li>
+                                <li>Breaking Pointe</li>
+                                <li>Capture</li>
+                                <li>CelebTV</li>
+                                <li>Hart of Dixie</li>
+                                <li>Nikita</li>
+                                <li>Oh Sit!</li>
+                                <li>Perfect Score</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 shows_two">
+                            <ul>
+                                <li>Reign</li>
+                                <li>Star-Crossed</li>
+                                <li>Supernatural</li>
+                                <li>The 100</li>
+                                <li>The Carrie Diaries</li>
+                                <li>The Originals</li>
+                                <li>The Tomorrow People</li>
+                                <li>The Vampire Diaries</li>
+                                <li>Whose Line Is It Anyway?</li>
+                            </ul>
+                        </div>
+                <div class="footer_CWTV">
+                    <div class="col-md-3">
+                        <h4>CWTV.COM</h4>
+                        <ul>
+                            <li>Videos</li>
+                            <li>Schedule</li>
+                            <li>Social</li>
+                            <li>Channels</li>
+                            <li>Photos</li>
+                            <li>Music</li>
+                            <li>Blog</li>
+                            <li>Philanthropy</li>
+                            <li>Sitemap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_about">
+                    <div class="col-md-3">
+                        <h4>ABOUT</h4>
+                        <ul>
+                            <li>About The CW</li>
+                            <li>Feedback</li>
+                            <li>Help</li>
+                            <li>Advertise With Us</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms of Use</li>
+                            <li>CBS Corporation</li>
+                            <li>Warner Bros.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
    
     <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src = "js/bootstrap.min.js"></script>

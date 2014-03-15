@@ -160,6 +160,7 @@ table {
 
 .carousel-caption p {
   font: 20px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
 }
 
 /* Smaller episode icons */
@@ -190,7 +191,7 @@ table {
 
 .imageLg h2 {
   position: absolute;
-  top: 180px;
+  top: 160px;
   left: 0;
   width: 100%;
   color: #fff;
@@ -198,6 +199,7 @@ table {
 
 .imageLg span:first-of-type {
   font-family: 'roboto_condensedbold', Sans-Serif;
+  letter-spacing: 0px;
   color: #27ae60;
   font-size: 28px;
   font-weight: bold;
@@ -208,6 +210,7 @@ table {
   clear: left;
   color: white;
   font:  24px/45px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.5);
   padding: 3px 10px;
@@ -215,7 +218,7 @@ table {
 
 .imageSm h2 {
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 0;
   width: 100%;
   color: #fff;
@@ -223,6 +226,7 @@ table {
 
 .imageSm span:first-of-type {
   font-family: 'roboto_condensedbold', Sans-Serif;
+  letter-spacing: 0px;
   color: #27ae60;
   font-size: 20px;
   font-weight: bold;
@@ -233,6 +237,7 @@ table {
   clear: left;
   color: white;
   font:  16px/25px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.5);
   padding: 3px 10px;
@@ -248,10 +253,12 @@ table {
 
 .imageSmlst span:first-of-type {
   font-size: 18px;
+  letter-spacing: 0px;
 }
 
 .imageSmlst span {
   font:  14px/24px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
 }
 
 /* Tables for smaller episode thumbnails */
@@ -269,7 +276,7 @@ table {
 }
 
 .epiTable img {
-  width: 90%;
+  width: 100%;
   vertical-align: center;
 }
 
@@ -278,7 +285,7 @@ table {
 }
 
 .tonight_schedule h1 {
-  font-size: 40px;
+  font-size: 46px;
 }
 
 .tonight_schedule h3, .show_name {
@@ -295,12 +302,8 @@ table {
 
 /* Photo Galleries */
 
-.photo_galleries {
-  margin-top: 50px;
-}
-
 .gallery {
-  margin-bottom: 200px
+  margin-bottom: -50px;
 }
 
 .gallery tr {
@@ -312,7 +315,44 @@ table {
 }
 
 .gallery img {
-  width: 90%;
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  color: #999;
+  background: #000000;
+  padding: 17px 0 20px 0;
+  border-top: 1px solid #000;
+        }
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -63px;
+        }
+
+footer h4 {
+  font: 20px 'roboto_condensedbold', Sans-Serif;
+}
+
+footer li {
+  font: 15px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
+}
+
+footer .shows_two {
+  padding-top: 25px;
+}
+
+footer .container {
+  padding-bottom: 30px;
 }
 
 /* Adds fade effect to Bootstrap Carousel */
