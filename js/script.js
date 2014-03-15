@@ -13,5 +13,11 @@ $('.carousel-control.right').click(function() {
   $('#myCarousel').carousel('next');
 });
 
+/*
+$('.imageSm').hover(function() {
+$(this).find('.play').show();
+}, function() {
+$(this).find('.play').hide();
+}); */
 
 });

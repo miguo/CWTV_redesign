@@ -163,6 +163,22 @@ table {
   letter-spacing: 0.5px;
 }
 
+.imageSm .play {
+  display: none;
+  background: url('play-arrow2.png') center center no-repeat;
+  height: 200px; 
+  width: 100%;
+  margin-top: -210px;
+  margin-left: 10px;
+  position: relative; 
+  z-index: 100; 
+  opacity: 0.6;
+}
+
+.imageSm:hover .play {
+  display: block;
+}
+
 /* Smaller episode icons */
 
 .episodeList {
@@ -340,6 +356,7 @@ html, body {
 
 footer h4 {
   font: 20px 'roboto_condensedbold', Sans-Serif;
+  color: #27ae60;
 }
 
 footer li {
@@ -348,7 +365,7 @@ footer li {
 }
 
 footer .shows_two {
-  padding-top: 25px;
+  padding-top: 26px;
 }
 
 footer .container {
