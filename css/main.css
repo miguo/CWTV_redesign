@@ -63,6 +63,42 @@ table {
 
 }
 
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/robotocondensed-regular.eot');
+    src: url('../fonts/robotocondensed-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/robotocondensed-regular.woff') format('woff'),
+         url('../fonts/robotocondensed-regular.ttf') format('truetype'),
+         url('../fonts/robotocondensed-regular.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/robotocondensed-bold.eot');
+    src: url('../fonts/robotocondensed-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/robotocondensed-bold.woff') format('woff'),
+         url('../fonts/robotocondensed-bold.ttf') format('truetype'),
+         url('../fonts/robotocondensed-bold.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_mono_otregular';
+    src: url('../fonts/firamonoot-regular.eot');
+    src: url('../fonts/firamonoot-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firamonoot-regular.woff') format('woff'),
+         url('../fonts/firamonoot-regular.ttf') format('truetype'),
+         url('../fonts/firamonoot-regular.svg#fira_mono_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .listNames {
   font-family: 'bebas_neueregular';
   font-size: 24px;
@@ -108,6 +144,24 @@ table {
     margin-top: -30px;
 }
 
+.carousel-caption h1 {
+  font: 48px 'roboto_condensedbold', Sans-Serif;
+}
+
+.lead {
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'roboto_condensedregular', Sans-Serif;
+}
+
+.carousel-caption h3 {
+  font: 28px 'roboto_condensedbold', Sans-Serif;
+}
+
+.carousel-caption p {
+  font: 20px 'roboto_condensedregular', Sans-Serif;
+}
+
 /* Smaller episode icons */
 
 .episodeList {
@@ -142,12 +196,18 @@ table {
   color: #fff;
 }
 
+.imageLg span:first-of-type {
+  font-family: 'roboto_condensedbold', Sans-Serif;
+  color: #27ae60;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .imageLg span {
   float: left;
   clear: left;
   color: white;
-  font: bold 24px/45px Helvetica, Arial, Sans-Serif;
-  letter-spacing: -1px;
+  font:  24px/45px 'roboto_condensedregular', Sans-Serif;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.5);
   padding: 3px 10px;
@@ -161,21 +221,21 @@ table {
   color: #fff;
 }
 
+.imageSm span:first-of-type {
+  font-family: 'roboto_condensedbold', Sans-Serif;
+  color: #27ae60;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .imageSm span {
   float: left;
   clear: left;
   color: white;
-  font:  14px/25px Helvetica, Arial, Sans-Serif;
-  letter-spacing: -1px;
+  font:  16px/25px 'roboto_condensedregular', Sans-Serif;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.5);
   padding: 3px 10px;
-}
-
-.imageSm span:first-of-type {
-  color: #27ae60;
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .imageSmlst h2 {
@@ -184,6 +244,14 @@ table {
   left: 0;
   width: 100%;
   color: #fff;
+}
+
+.imageSmlst span:first-of-type {
+  font-size: 18px;
+}
+
+.imageSmlst span {
+  font:  14px/24px 'roboto_condensedregular', Sans-Serif;
 }
 
 /* Tables for smaller episode thumbnails */
@@ -209,10 +277,30 @@ table {
   margin-bottom: 22px;
 }
 
+.tonight_schedule h1 {
+  font-size: 40px;
+}
+
+.tonight_schedule h3, .show_name {
+  font: 20px 'roboto_condensedbold', Sans-Serif;
+}
+
+.tonight_schedule p {
+  font: 20px 'roboto_condensedregular', Sans-Serif;
+}
+
+.border_line {
+  border-top: 2px solid #27ae60;
+}
+
 /* Photo Galleries */
 
+.photo_galleries {
+  margin-top: 50px;
+}
+
 .gallery {
-  margin-bottom: 200px;
+  margin-bottom: 200px
 }
 
 .gallery tr {
