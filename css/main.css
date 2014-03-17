@@ -397,4 +397,20 @@ footer .container {
   z-index: 3;
 }
 
+/* Small thumbnails carousel */
+.smCarousel a.left.carousel-control {
+  background: none;
+  width: 1%;
+  color: black;
+  margin-top: 64%;
+  margin-left: 42%;
+}
+
+.smCarousel a.right.carousel-control {
+  background: none;
+  width: 1%;
+  color: black;
+  margin-top: 64%;
+  margin-right: 42%;
+}
 

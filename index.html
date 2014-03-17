@@ -16,6 +16,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
     	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
 		<script src="js/script.js" type="text/javascript"></script>
+
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
 
@@ -125,10 +126,10 @@
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <a class="left carousel-control" href="#carousel-example-generic" id="cover_left" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <a class="right carousel-control" href="#carousel-example-generic" id="cover_right" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
@@ -139,6 +140,11 @@
             <div class = "row">
                 <div class = "col-md-7">
                     <h3 class = "listNames">LATEST EPISODES</h3>
+                    <!-- Carousel -->
+                <div class="carousel slide carousel-fade smCarousel" id="carousel_one" data-interval="false">
+                    <!-- Wrapper for slides -->
+                <div class="carousel-inner">    
+                    <div class="item active">
                     <table class="table epiTable">
                         <tr>
                             <td>
@@ -184,8 +190,9 @@
                             </td>
                         </tr>
                     </table>
-                    
-                    <h3 class="listNames">POPULAR EPISODES</h3>
+                </div>
+                    <!-- test slide 2 for thumbnail carousel -->
+                    <div class="item">
                     <table class="table epiTable">
                         <tr>
                             <td>
@@ -232,6 +239,130 @@
                         </tr>
                     </table>
                 </div>
+            </div> <!-- end of carousel-inner -->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" id="carousel_one_left" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" id="carousel_one_right" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div> <!-- end of smCarousel -->
+
+                    
+                    <h3 class="listNames">POPULAR EPISODES</h3>
+                    <!-- Carousel -->
+                <div class="carousel slide carousel-fade smCarousel" id="carousel_two" data-interval="false">
+                    <!-- Wrapper for slides -->
+                <div class="carousel-inner">    
+                    <div class="item active">
+                        <table class="table epiTable">
+                        <tr>
+                            <td>
+                                <div class="imageSm">
+                                    <a href="http://www.yahoo.com">
+                                        <img src="img/TVD_noexit.jpg" alt="" />
+                                        <span class="play"></span>
+                                    </a>
+                                    <h2>
+                                        <span>The Vampire Diaries</span>
+                                        <span>No Exit (Ep.514)</span>
+                                    </h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="imageSm">
+                                    <img src="img/reign_royalblood.jpg" alt="" />
+                                    <h2>
+                                        <span>Reign</span>
+                                        <span>Royal Blood (Ep.112)</span>
+                                    </h2> 
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="imageSm">
+                                    <img src="img/TTP_enemyofenemy.jpg" alt="" />
+                                    <h2>
+                                        <span>The Tomorrow People</span>
+                                        <span>Enemy of My Enemy (Ep.115)</span>
+                                    </h2>
+                                </div>    
+                            </td>
+                            <td>
+                                <div class="imageSm">
+                                    <img src="img/supernatural_thinman.jpg" alt="" />
+                                    <h2>
+                                        <span>Supernatural</span>
+                                        <span>#THINMAN (Ep.915)</span>
+                                    </h2>
+                                </div>       
+                            </td>
+                        </tr>
+                    </table>
+                    </div>  <!-- end of item active div -->
+                
+                    <div class="item">
+                    <table class="table epiTable">
+                        <tr>
+                            <td>
+                                <div class="imageSm">
+                                    <a href="http://www.yahoo.com">
+                                        <img src="img/originals_storyville.jpg" alt="" />
+                                        <span class="play"></span>
+                                    </a>
+                                    <h2>
+                                        <span>The Originals</span>
+                                        <span>Farewell to Storyville (Ep.116)</span>
+                                    </h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="imageSm">
+                                    <img src="img/beautyandbeast_lastnight.jpg" alt="" />
+                                    <h2>
+                                        <span>Beauty and the Beast</span>
+                                        <span>About Last Night (Ep.216)</span>
+                                    </h2> 
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="imageSm">
+                                    <img src="img/TVD_gonegirl.jpg" alt="" />
+                                    <h2>
+                                        <span>The Vampire Diaries</span>
+                                        <span>Gone Girl (Ep.515)</span>
+                                    </h2>
+                                </div>    
+                            </td>
+                            <td>
+                                <div class="imageSm">
+                                    <img src="img/arrow_thepromise.jpg" alt="" />
+                                    <h2>
+                                        <span>Arrow</span>
+                                        <span>The Promise (Ep.215)</span>
+                                    </h2>
+                                </div>       
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+                </div> <!-- end of carousel-inner -->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" id="carousel_two_left" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" id="carousel_two_right" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div> <!-- end of smCarousel -->
+
+            </div> <!-- end of Latest & Popular Episodes div -->
 
             <div class="row">
                 <div class = "col-md-5">

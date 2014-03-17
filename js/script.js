@@ -1,17 +1,37 @@
 $(document).ready(function() {
 
 
-$(".carousel").carousel({
+$("#myCarousel").carousel({
 	interval: 8000
 }); 
 
-$('.carousel-control.left').click(function() {
+/* Cover photo carousel */
+$('#cover_left').click(function() {
   $('#myCarousel').carousel('prev');
 });
 
-$('.carousel-control.right').click(function() {
+$('#cover_right').click(function() {
   $('#myCarousel').carousel('next');
 });
+
+/* Smaller thumbnails carousel */
+$('#carousel_one_left').click(function() {
+  $('#carousel_one').carousel('prev');
+});
+
+$('#carousel_one_right').click(function() {
+  $('#carousel_one').carousel('next');
+});
+
+$('#carousel_two_left').click(function() {
+  $('#carousel_two').carousel('prev');
+});
+
+$('#carousel_two_right').click(function() {
+  $('#carousel_two').carousel('next');
+});
+
+
 
 /*
 $('.imageSm').hover(function() {
