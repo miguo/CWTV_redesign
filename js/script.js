@@ -32,7 +32,6 @@ $('#carousel_two_right').click(function() {
 });
 
 
-
 /*
 $('.imageSm').hover(function() {
 $(this).find('.play').show();
@@ -41,3 +40,4 @@ $(this).find('.play').hide();
 }); */
 
 });
+
