@@ -31,6 +31,8 @@ $('#carousel_two_right').click(function() {
   $('#carousel_two').carousel('next');
 });
 
+/* Episode details popover when hovering over thumbnails */
+$(".pop_test").popover("hover");
 
 /*
 $('.imageSm').hover(function() {

@@ -277,6 +277,22 @@ table {
   letter-spacing: 0.5px;
 }
 
+/* Episode details upon hover using Bootstrap popover */
+
+.popover {
+    top: -3% !important;
+    left: 94% !important;
+    width: 80%;
+}
+
+.popover-title {
+  font: 18px 'roboto_condensedbold', Sans-Serif;
+}
+
+.popover-content {
+  font: 16px 'roboto_condensedregular', Sans-Serif;
+}
+
 /* Tables for smaller episode thumbnails */
 
 .epiTable {
@@ -413,4 +429,7 @@ footer .container {
   margin-top: 64%;
   margin-right: 42%;
 }
+
+
+
 
