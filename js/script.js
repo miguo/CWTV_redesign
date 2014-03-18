@@ -32,7 +32,12 @@ $('#carousel_two_right').click(function() {
 });
 
 /* Episode details popover when hovering over thumbnails */
-$(".pop_test").popover("hover");
+
+$(function(){
+   $('.pop_test').popover({
+   trigger: 'hover',
+   });
+}); 
 
 /*
 $('.imageSm').hover(function() {

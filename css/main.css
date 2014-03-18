@@ -124,7 +124,28 @@ table {
 }
 
 .dropdown-text li a {
-  font-size: 20px;
+  font-size: 30px;
+}
+
+ul.dropdown-text li a {
+  display: block;
+  color: #999;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+ul.dropdown-text li a:hover {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.show_names {
+  padding-left: 9%;
+  padding-bottom: 5%;
+  padding-top: 2%;
 }
 
 /* Carousel slider */
@@ -280,9 +301,8 @@ table {
 /* Episode details upon hover using Bootstrap popover */
 
 .popover {
-    top: -3% !important;
-    left: 94% !important;
-    width: 80%;
+  top: -3% !important;
+  width: 80% !important;
 }
 
 .popover-title {
@@ -291,6 +311,26 @@ table {
 
 .popover-content {
   font: 16px 'roboto_condensedregular', Sans-Serif;
+}
+
+.imageSmlst a ~ .popover > .popover-title {
+  font: 16px 'roboto_condensedbold', Sans-Serif;
+}
+
+.imageSmlst a ~ .popover > .popover-content {
+  font: 14px 'roboto_condensedregular', Sans-Serif;
+}
+
+.imageSmlst a ~ .popover {
+  width: 100% !important;
+}
+
+.imageLg a ~ .popover > .popover-title {
+  font: 20px 'roboto_condensedbold', Sans-Serif;
+}
+
+.imageLg a ~ .popover > .popover-content {
+  font: 18px 'roboto_condensedregular', Sans-Serif;
 }
 
 /* Tables for smaller episode thumbnails */
@@ -316,7 +356,36 @@ table {
   margin-bottom: 22px;
 }
 
+.button-reset {
+  width: 100px;
+  height: 40px;
+  background-color: #27ae60;
+  border: 1px solid #27ae60;
+  border-radius: 3px;
+  color: #fff;
+  font: 16px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
+  margin-top: -40px;
+  margin-right: 7px;
+  float: right;
+}
+
+.button-reset2 {
+  width: 100px;
+  height: 40px;
+  background-color: #27ae60;
+  border: 1px solid #27ae60;
+  border-radius: 3px;
+  color: #fff;
+  font: 16px 'roboto_condensedregular', Sans-Serif;
+  letter-spacing: 0.5px;
+  margin-top: 66px;
+  margin-right: 7px;
+  float: right;
+}
+
 .tonight_schedule h1 {
+  margin-top: 100px;
   font-size: 46px;
 }
 
@@ -333,6 +402,10 @@ table {
 }
 
 /* Photo Galleries */
+
+.photo_galleries {
+    margin-top: 50px;
+}
 
 .gallery {
   margin-bottom: -50px;
@@ -386,6 +459,16 @@ footer .shows_two {
 
 footer .container {
   padding-bottom: 30px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #999;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /* Adds fade effect to Bootstrap Carousel */
