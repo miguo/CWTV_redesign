@@ -107,20 +107,20 @@ table {
 /* Navbar */
 
 #barLogo {
-    height: 30%;
-    width: 30%;
-    margin-top: -20px;
-    margin-bottom: -20px;
+  height: 30%;
+  width: 30%;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 .navbar-right li a {
-    line-height: 50px;
-    font-family: 'bebas_neueregular';
-    font-size: 30px;
+  line-height: 50px;
+  font-family: 'bebas_neueregular';
+  font-size: 30px;
 }
 
 .navbar {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .dropdown-text li a {
@@ -151,18 +151,18 @@ ul.dropdown-text li a:hover {
 /* Carousel slider */
 
 .carousel .item {
-    width: 100%; /*slider width*/
-    max-height: 520px; /*slider height*/
+  width: 100%; /*slider width*/
+  max-height: 520px; /*slider height*/
 }
 .carousel .item img {
-    width: 100%; /*img width*/
+  width: 100%; /*img width*/
 }
 .coverPhoto {
-    height: 50%;
+  height: 50%;
 }
 
 #myCarousel {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 
 .carousel-caption h1 {
@@ -203,12 +203,12 @@ ul.dropdown-text li a:hover {
 /* Smaller episode icons */
 
 .episodeList {
-    margin-top: 46px;
-    margin-bottom: 200px;
+  margin-top: 46px;
+  margin-bottom: 200px;
 }
 
 .listNames {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Text over episode thumbnails */
