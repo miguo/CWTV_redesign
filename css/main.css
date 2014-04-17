@@ -184,22 +184,6 @@ ul.dropdown-text li a:hover {
   letter-spacing: 0.5px;
 }
 
-.imageSm .play {
-  display: none;
-  background: url('../img/play-arrow2.png') center center no-repeat;
-  height: 200px; 
-  width: 100%;
-  margin-top: -210px;
-  margin-left: 10px;
-  position: relative; 
-  z-index: 100; 
-  opacity: 0.6;
-}
-
-.imageSm:hover .play {
-  display: block;
-}
-
 /* Smaller episode icons */
 
 .episodeList {
